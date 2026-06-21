@@ -57,6 +57,17 @@
 
 static struct lock acct_lock = LOCK_INITIALIZER("acct_lock", 0, 0);
 
+/***
+ * kern_acct.c
+ *
+ * acct is essentially a process accounting facility,
+ * it is a system call that is used by the kernel to
+ * track and record system resource usage. Such as the
+ * CPU time, memory, and commands executed - for every 
+ * process that terminates.
+ *
+ * /
+
 /*
  * The routines implemented in this file are described in:
  *      Leffler, et al.: The Design and Implementation of the 4.3BSD
