@@ -66,7 +66,7 @@ static struct lock acct_lock = LOCK_INITIALIZER("acct_lock", 0, 0);
  * CPU time, memory, and commands executed - for every 
  * process that terminates.
  *
- * /
+*/
 
 /*
  * The routines implemented in this file are described in:
